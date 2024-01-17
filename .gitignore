@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+/.ipynb_checkpoints
+/etc
+/share
+/Scripts
+/.idea
+/Lib/site-packages
