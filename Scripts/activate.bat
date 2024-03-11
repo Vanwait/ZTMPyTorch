@@ -1,6 +1,6 @@
 @echo off
 
-set "VIRTUAL_ENV=C:\Users\sergi\Desktop\Proyectos\ZTMPyTorch"
+set "VIRTUAL_ENV=C:\Users\sergi\Desktop\Cursos\ZTM_PyTorch\ZTMPyTorch"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

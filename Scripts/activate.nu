@@ -1,6 +1,6 @@
 # Setting all environment variables for the venv
 let path-name = (if ((sys).host.name == "Windows") { "Path" } { "PATH" })
-let virtual-env = "C:\Users\sergi\Desktop\Proyectos\ZTMPyTorch"
+let virtual-env = "C:\Users\sergi\Desktop\Cursos\ZTM_PyTorch\ZTMPyTorch"
 let bin = "Scripts"
 let path-sep = ";"
 
@@ -38,4 +38,4 @@ let-env PROMPT_COMMAND = $new_prompt
 # We are using alias as the function definitions because only aliases can be
 # removed from the scope
 alias pydoc = python -m pydoc
-alias deactivate = source "C:\Users\sergi\Desktop\Proyectos\ZTMPyTorch\Scripts\deactivate.nu"
+alias deactivate = source "C:\Users\sergi\Desktop\Cursos\ZTM_PyTorch\ZTMPyTorch\Scripts\deactivate.nu"
